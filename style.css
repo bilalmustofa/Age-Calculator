@@ -53,8 +53,7 @@ input[type="date"]:focus {
     transition: all 0.3s;
 }
 #calculateBtn:hover {
-    box-shadow: 0 0 20px rgb(3, 124, 3);
-    transform: scale(1.07);
+    box-shadow: 0 0 15px rgb(4, 238, 4);
 }
 #result {
     color: rgb(4, 187, 4);
