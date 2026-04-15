@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(219, 224, 228);
+}
+.continar {
+    width: 500px;
+    background-color: rgba(20, 19, 19, 0.815);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1 {
+    margin:15px;
+    color: rgb(4, 187, 4);
+}
+label {
+    display: block;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+input[type="date"] {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(156, 152, 152, 0.815);
+    border: none;
+    outline: none;
+    border-radius: 10px
+}
+input[type="date"]:focus {
+    border: 1px solid rgb(4, 187, 4);
+}
+#calculateBtn {
+    background-color:rgb(4, 187, 4);
+    color: white;
+    border: none;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+#calculateBtn:hover {
+    box-shadow: 0 0 20px rgb(3, 124, 3);
+    transform: scale(1.07);
+}
+#result {
+    color: rgb(4, 187, 4);
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px 0;
+}
